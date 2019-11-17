@@ -18,3 +18,11 @@ Cities dataframe had no nulls.<br>
 Dropped null values from stations dataframe.<br>
 Counted number of dropped rows = 10% of station data so kept nulls to have them accounted for after ETL process.<br>
 
+# Load
+Created database named transit_systems using PostgreSQL.<br>
+<img src="https://github.com/kcastlet/ETL-Transit-Systems/blob/master/Images/Screenshot-%20querry%20example.png" height="200" width="400"><br>
+Created cities (primary key = City_ID) and station tables (primary key = Station_ID).<br>
+Merged cities and stations tables to a joint master table (primary key = Station_ID).<br>
+Queried all, counted, grouped by country, ordered by country, then pulled station count by country.
+
+
